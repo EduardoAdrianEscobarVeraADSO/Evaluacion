@@ -1,0 +1,88 @@
+/* Codigo header */
+    :root {
+  --primary-color: #FF84AB;
+  --secondary-color: #FFCBE3;
+  --color-titles-subtitles: #CC0A43;
+  --font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-size: 16px;
+  --width-box: 50%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/* Restablecer estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Contenedor principal */
+.header {
+  background-color: #f7941d;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* Logo */
+.navbar__logo {
+  width: 40%;
+  margin-right: 20px;
+}
+
+/* Nombre y número de teléfono */
+.navbard {
+  
+  align-items: center;
+}
+
+.name-footer {
+  font-size: 18px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+
+}
+
+.number-footer {
+  font-size: 16px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+
+
+.cell-image {
+  height: 20px;
+  align-items: flex-end;
+}
+
+/* Menú */
+.menu {
+  display: flex;
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  margin-right: 10px;
+  transition: 0.2s ease-in-out;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar__link:hover {
+  color: #f2700a;
+}
+
+
